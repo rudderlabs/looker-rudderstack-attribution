@@ -92,7 +92,7 @@
     height: 6
   - title: Registration Weekwise Attributed Transaction Value by UTM Campaign
     name: Registration Weekwise Attributed Transaction Value by UTM Campaign
-    model: growth_programming
+    model: looker-rudderstack-attribution
     explore: attribution_use_case
     type: looker_column
     fields: [attribution_use_case.RECEIVED_AT_week, event_click_attrib_total_transactions_calculated,
@@ -203,7 +203,7 @@
     height: 7
   - title: Registration Weekwise Attributed Transaction Value by UTM Medium
     name: Registration Weekwise Attributed Transaction Value by UTM Medium
-    model: growth_programming
+    model: looker-rudderstack-attribution
     explore: attribution_use_case
     type: looker_column
     fields: [attribution_use_case.RECEIVED_AT_week, event_click_attrib_total_transactions_calculated,
@@ -287,7 +287,7 @@
     height: 8
   - title: Time Decay Registrations by UTM Source
     name: Time Decay Registrations by UTM Source
-    model: growth_programming
+    model: looker-rudderstack-attribution
     explore: attribution_use_case
     type: looker_pie
     fields: [attribution_use_case.UTM_SOURCE, total_time_decay_attrib_registrations]
@@ -309,7 +309,7 @@
     height: 6
   - title: Time Decay Regsitrations by UTM Campaign
     name: Time Decay Regsitrations by UTM Campaign
-    model: growth_programming
+    model: looker-rudderstack-attribution
     explore: attribution_use_case
     type: looker_pie
     fields: [total_time_decay_attrib_registrations, attribution_use_case.UTM_CAMPAIGN]
@@ -333,7 +333,7 @@
     height: 6
   - title: Time Decay Regsitrations by UTM Medium
     name: Time Decay Regsitrations by UTM Medium
-    model: growth_programming
+    model: looker-rudderstack-attribution
     explore: attribution_use_case
     type: looker_pie
     fields: [total_time_decay_attrib_registrations, attribution_use_case.UTM_MEDIUM]
@@ -366,7 +366,7 @@
       type: advanced
       display: popover
       options: []
-    model: growth_programming
+    model: looker-rudderstack-attribution
     explore: attribution_use_case
     listens_to_filters: []
     field: attribution_use_case.RECEIVED_AT_week
