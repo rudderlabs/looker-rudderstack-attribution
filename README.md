@@ -3,24 +3,25 @@
 <p align="center"><b>The warehouse-first customer data pipeline built for devs</b></p>
 <br/>
 
-# \*\* Repo Name \*\*
+# \*\* looker-rudderstack-attribution \*\*
 
-\*\* Repo description \*\*
+\*\* This repository containes Looker code for performing various attribution analyses on top of web session data captured using RudderStack \*\*
 |:------|
+
 
 Questions? Please join our [Slack channel](https://resources.rudderstack.com/join-rudderstack-slack) or read about us on [Product Hunt](https://www.producthunt.com/posts/rudderstack).
 
-# Why Use \*\* Software Name \*\*
+# Why Use \*\* looker-rudderstack-attribution \*\*
 
-\*\* Describe what software does. \*\*
+\*\* The code from this repository can be used in Looker for creating visualizations related to attribution analysis combining web browsing and transaction data. Any conversion activity like form submit or sign up is considered as a transaction for the puprose of this particular example\*\*
 
 # Key Features
 
-\*\* Describe key features, if necessary. \*\*
+\*\* Uses Looker visualizations on top of [DBT Models](https://github.com/rudderlabs/dbt-rudderstack) for attribution analysis \*\*
 
 # Get Started
 
-\*\* Describe how to use the software. \*\*
+\*\* This code can be directly imported into a Looker project  \*\*
 
 # License
 
