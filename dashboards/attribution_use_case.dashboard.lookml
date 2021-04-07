@@ -5,7 +5,7 @@
   elements:
   - title: Registration Weekwise Attributed Transaction Value by UTM Source
     name: Registration Weekwise Attributed Transaction Value by UTM Source
-    model: growth_programming
+    model: looker-rudderstack-attribution
     explore: attribution_use_case
     type: looker_column
     fields: [attribution_use_case.RECEIVED_AT_week, attribution_use_case.UTM_SOURCE,
