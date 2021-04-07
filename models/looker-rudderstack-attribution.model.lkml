@@ -10,3 +10,5 @@ datagroup: looker_rudderstack_attribution_default_datagroup {
 }
 
 persist_with: looker_rudderstack_attribution_default_datagroup
+
+explore: attribution_use_case {}
