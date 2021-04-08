@@ -12,9 +12,9 @@ start by asking a question on [Slack][slack].
 To contribute to this project, we need you to sign to [Contributor License Agreement (“CLA”)][CLA] for the first commit you make. By agreeing to the [CLA][CLA]
 we can add you to list of approved contributors and review the changes proposed by you.
 
-## Installing and Setting Up \*\* Software Name \*\*
+## Installing and Setting Up looker-rudderstack-attribution
 
-\*\* Describe, in detail, how to setup and start using the software. \*\*
+This code can be directly imported into a LookML project in Looker. It is assumed that RudderStack's [dbt Models](https://github.com/rudderlabs/dbt-rudderstack-attribution) for attribution analysis for attribution have already been applied.
 
 ## Submitting a Pull Request ##
 
@@ -40,8 +40,6 @@ We look forward to your feedback on improving this project.
 
 <!----variable's---->
 
-\*\* Update variable links. \*\*
-
 [slack]: https://resources.rudderstack.com/join-rudderstack-slack
-[issue]: https://github.com/rudderlabs/rudder-repo-template/issues/new
+[issue]: https://github.com/rudderlabs/looker-rudderstack-attribution/issues/new
 [CLA]: https://rudderlabs.wufoo.com/forms/rudderlabs-contributor-license-agreement

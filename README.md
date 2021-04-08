@@ -3,36 +3,29 @@
 <p align="center"><b>The warehouse-first customer data pipeline built for devs</b></p>
 <br/>
 
-# \*\* looker-rudderstack-attribution \*\*
-
-\*\* This repository containes Looker code for performing various attribution analyses on top of web session data captured using RudderStack \*\*
+# looker-rudderstack-attribution 
+This repository contains the code for a LookML project in Looker for performing various attribution analyses on top of web session data captured using RudderStack and modeled using dbt.
 |:------|
 
 
 Questions? Please join our [Slack channel](https://resources.rudderstack.com/join-rudderstack-slack) or read about us on [Product Hunt](https://www.producthunt.com/posts/rudderstack).
 
-# Why Use \*\* looker-rudderstack-attribution \*\*
-
-\*\* The code from this repository can be used in Looker for creating visualizations related to attribution analysis combining web browsing and transaction data. Any conversion activity like form submit or sign up is considered as a transaction for the puprose of this particular example\*\*
+# Why Use looker-rudderstack-attribution 
+The code from this repository can be used in Looker for creating visualizations related to attribution analysis combining web browsing and transaction data. Any conversion activity like form submit or sign up is considered as a transaction for the puprose of this particular example. 
 
 # Key Features
-
-\*\* Uses Looker visualizations on top of [DBT Models](https://github.com/rudderlabs/dbt-rudderstack) for attribution analysis \*\*
+Uses Looker visualizations on top of [dbt Models](https://github.com/rudderlabs/dbt-rudderstack-attribution) for attribution analysis.
 
 # Get Started
-
-\*\* This code can be directly imported into a Looker project  \*\*
+This code can be directly imported into a LookML project in Looker.
 
 # License
-
-RudderStack \*\* software name \*\* is released under the [MIT License][mit_license].
+RudderStack looker-rudderstack-attribution is released under the [MIT License][mit_license].
 
 # Contribute
-
 We would love to see you contribute to RudderStack. Get more information on how to contribute [here](CONTRIBUTING.md).
 
 # Follow Us
-
 - [RudderStack Blog][rudderstack-blog]
 - [Slack][slack]
 - [Twitter][twitter]
@@ -43,12 +36,9 @@ We would love to see you contribute to RudderStack. Get more information on how 
 - [HackerNews][hackernews]
 - [Product Hunt][producthunt]
 
-# \*\* Optional \*\* :clap:  Our Supporters
-
-\*\* Update the repo names below. \*\*<br />
-
-[![Stargazers repo roster for @rudderlabs/rudder-server](https://reporoster.com/stars/rudderlabs/rudder-repo-template)](https://github.com/rudderlabs/rudder-repo-template/stargazers)
-[![Forkers repo roster for @rudderlabs/rudder-server](https://reporoster.com/forks/rudderlabs/rudder-repo-template)](https://github.com/rudderlabs/rudder-repo-template/network/members)
+# :clap:  Our Supporters
+[![Stargazers repo roster for @rudderlabs/looker-rudderstack-attribution](https://reporoster.com/stars/rudderlabs/looker-rudderstack-attribution)](https://github.com/rudderlabs/looker-rudderstack-attribution/stargazers)
+[![Forkers repo roster for @rudderlabs/looker-rudderstack-attribution](https://reporoster.com/forks/rudderlabs/looker-rudderstack-attribution)](https://github.com/rudderlabs/looker-rudderstack-attribution/network/members)
 
 <!----variables---->
 
